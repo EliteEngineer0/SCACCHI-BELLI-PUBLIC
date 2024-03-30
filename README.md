@@ -7,29 +7,29 @@ therefore it supports most databases, however the project is intended for postgr
 
 It's important to have all the enviroment variables setup.
 
-# Install the packages
+## Install the packages
 ```
   pnpm i
 ```
 
-# Build prisma
+## Build prisma
 ```
   pnpm prisma generate
   pnpm prisma db push
 ```
 
-# Finally...
+### Finally...
 
-# For development
+## For development
 ```
   pnpm run dev
 ```
 
-# For deployment/production
+## For deployment/production
 ```
   pnpm run build
 ```
-# You can also locally preview the production build
+### You can also locally preview the production build
 ```
   pnpm run preview
 ```
